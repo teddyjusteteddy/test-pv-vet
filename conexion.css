@@ -1,0 +1,166 @@
+/* css/style.css */
+
+/* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Styles des formulaires */
+.form-container {
+    padding: 40px;
+    transition: all 0.5s ease;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Styles des boutons */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles des icônes sociales */
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.icon {
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #007bff;
+}
+
+/* Styles des liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles du conteneur de basculement */
+.toggle-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.toggle-panel {
+    width: 50%;
+    text-align: center;
+}
+
+.toggle-panel h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.toggle-panel p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Cacher les panneaux par défaut */
+.hidden {
+    display: none;
+}
+
+/* Styles pour les transitions */
+.form-container.sign-up {
+    display: none; /* Cacher le formulaire d'inscription par défaut */
+}
+
+.form-container.sign-in {
+    display: block; /* Afficher le formulaire de connexion par défaut */
+}
+
+/* Styles pour les boutons de basculement */
+#login, #register {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login:hover, #register:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le conteneur de basculement */
+.toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; /* Ajout d'un espacement au-dessus des boutons */
+}
+
+/* Styles pour les boutons de basculement */
+.toggle-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
