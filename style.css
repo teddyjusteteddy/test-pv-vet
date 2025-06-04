@@ -106,8 +106,8 @@ nav.nav li{
     position: relative;
     background-size: cover;
     background-position: center;
-    min-width: 250px;
-    height: 300px;
+    min-width: 200px;
+    height: 200px;
     flex: 1;
 }
 
